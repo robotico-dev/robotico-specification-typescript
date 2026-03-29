@@ -1,0 +1,9 @@
+= @robotico-dev/specification — design
+
+== Model
+
+Composable boolean specifications: `and`, `or`, `not`, `allOf`, `anyOf`, and `fromPredicate`. Suitable for in-memory filtering; for ORMs, translate to query expressions in the application layer.
+
+== Quality bar
+
+link:../../docs/adr/0001-quality-bar.md[ADR 0001].
