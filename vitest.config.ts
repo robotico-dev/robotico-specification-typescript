@@ -23,7 +23,7 @@ export default defineConfig({
         "**/specification-description-node-false.ts",
         "**/specification-with-description-node-getter.ts",
       ],
-      thresholds: { branches: 95, functions: 95, lines: 95, statements: 95 },
+      thresholds: { branches: 100, functions: 100, lines: 100, statements: 100 },
     },
   },
 });
